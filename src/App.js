@@ -1,11 +1,15 @@
 import React from "react";
-import HooksCounter2 from "./component/useState/HooksCounter2";
 import "./App.css";
+import HooksCounter2 from "./component/useState/HooksCounter2";
+import HooksObject from "./component/useState/HooksObject";
+import HooksArrays from "./component/useState/HooksArrays";
 
 function App() {
   return (
     <div className='App'>
-      <HooksCounter2 />
+      <HooksArrays />
+      {/* <HooksObject /> */}
+      {/* <HooksCounter2 /> */}
     </div>
   );
 }
